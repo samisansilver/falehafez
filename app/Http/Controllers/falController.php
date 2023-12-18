@@ -13,7 +13,7 @@ class falController extends Controller
 
     public function getFal()
     {
-        $x = rand(1, 3);
+        $x = rand(1, 30);
         return view('falha.'. $x);
     }
 
